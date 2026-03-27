@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/loadgenerator:e12fbd7eaaae768c8e66acd6f606e8e85684feee
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
