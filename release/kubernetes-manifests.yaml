@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/shippingservice:0414af3d12782601c241f6a7d84e522e86f93328
         ports:
         - containerPort: 50051
         env:
