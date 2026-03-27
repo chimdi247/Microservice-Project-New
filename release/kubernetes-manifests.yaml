@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/chimdi247/paymentservice:4ce31ef10d21720b6383b86285256cfb74b02397
         ports:
         - containerPort: 50051
         env:
