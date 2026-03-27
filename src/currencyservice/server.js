@@ -163,7 +163,7 @@ function convert (call, callback) {
       callback(null, result);
     });
   } catch (err) {
-    logger.error(`conversion request failed: ${err}`);
+    logger.error(`conversion to request failed: ${err}`);
     callback(err.message);
   }
 }
