@@ -12,7 +12,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: micro-raph247.online
+    - host: raph247.online
       http:
         paths:
           - path: /
