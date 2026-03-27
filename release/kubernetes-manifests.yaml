@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/chimdi247/adservice:260cb79b6611c72844783af2c1c190f757899e21
         ports:
         - containerPort: 9555
         env:
