@@ -208,7 +208,7 @@ public final class AdService {
 
   private static void initTracing() {
     if (System.getenv("DISABLE_TRACING") != null) {
-      logger.info("Tracing disabled.");
+      logger.info("Tracing disabled..");
       return;
     }
     logger.info("Tracing enabled but temporarily unavailable");
