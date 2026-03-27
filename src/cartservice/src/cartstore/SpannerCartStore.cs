@@ -165,7 +165,7 @@ namespace cartservice.cartstore
             catch (Exception ex)
             {
                 throw new RpcException(
-                    new Status(StatusCode.FailedPrecondition, $"Can't access cart storage at {databaseString}. {ex}"));
+                    new Status(StatusCode.FailedPrecondition, $"Can't access carting storage at {databaseString}. {ex}"));
             }
         }
 
