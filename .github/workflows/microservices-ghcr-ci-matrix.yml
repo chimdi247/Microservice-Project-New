@@ -13,7 +13,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  USERNAME: jaiswaladi246
+  USERNAME: chimdi247
 
 jobs:
   gitleaks:
@@ -183,7 +183,7 @@ jobs:
 
       - name: Login GHCR
         if: matrix.service != '__none__'
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+        run: echo "${{ secrets._GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Install Trivy
         if: matrix.service != '__none__'
@@ -275,8 +275,8 @@ jobs:
       contents: read
 
     env:
-      AWS_REGION: ap-south-1
-      EKS_CLUSTER_NAME: my-cluster
+      AWS_REGION: eu-west-2
+      EKS_CLUSTER_NAME: chimdi-cluster
       K8S_NAMESPACE: project
 
     steps:
