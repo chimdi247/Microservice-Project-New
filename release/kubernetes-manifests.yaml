@@ -737,7 +737,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/chimdi247/frontend:6ddc9ef0f082c8f1cc7e668f6f2a03918fa7da0a
+          image: ghcr.io/chimdi247/frontend:d8e27074748f9a159652242184d05ce3f69cb618
           ports:
           - containerPort: 8080
           readinessProbe:
