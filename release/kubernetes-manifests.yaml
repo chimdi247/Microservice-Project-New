@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/chimdi247/checkoutservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+          image: ghcr.io/chimdi247/checkoutservice:eb5247728a8ce0d0245514b7163f35d9e4217923
           ports:
           - containerPort: 5050
           readinessProbe:
