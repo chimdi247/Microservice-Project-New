@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/cartservice:da913e0b3b4980e4956639da38dc617a1ee8b9c9
+        image: ghcr.io/chimdi247/cartservice:c40f3403692a1e3331fa6f0e41861fa3b8eb5085
         ports:
         - containerPort: 7070
         env:
