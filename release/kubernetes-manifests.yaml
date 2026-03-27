@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/chimdi247/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/recommendationservice:3a9a3d68204e30ef0ae8f60b95bb2706aca892b9
         ports:
         - containerPort: 8080
         readinessProbe:
