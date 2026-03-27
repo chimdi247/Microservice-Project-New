@@ -115,6 +115,6 @@ def create_app():
     return app
 
 if __name__ == "__main__":
-    # Create an instance of flask server when called directly
+    # Create an instance of flask server when called directly on
     app = create_app()
     app.run(host='0.0.0.0', port=8080)
