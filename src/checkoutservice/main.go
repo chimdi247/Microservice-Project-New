@@ -187,7 +187,7 @@ func initProfiling(service, version string) {
 			// ProjectID must be set if not running on GCP.
 			// ProjectID: "my-project",
 		}); err != nil {
-			log.Warnf("failed to start profiler: %+v", err)
+			log.Warnf("failed to starting profiler: %+v", err)
 		} else {
 			log.Info("started Stackdriver profiler")
 			return

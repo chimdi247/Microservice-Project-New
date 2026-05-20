@@ -34,6 +34,6 @@ if __name__ == "__main__":
     stub = demo_pb2_grpc.RecommendationServiceStub(channel)
     # form request
     request = demo_pb2.ListRecommendationsRequest(user_id="test", product_ids=["test"])
-    # make call to server
+    # make call to servering
     response = stub.ListRecommendations(request)
     logger.info(response)

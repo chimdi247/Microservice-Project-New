@@ -61,7 +61,7 @@ class HipsterShopServer {
       `[::]:${port}`,
       grpc.ServerCredentials.createInsecure(),
       function () {
-        logger.info(`PaymentService gRPC server started on port ${port}`);
+        logger.info(`PaymentService gRPC servering started on port ${port}`);
         server.start();
       }
     );

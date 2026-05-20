@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/currencyservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/currencyservice:1bda4fad005a0ba4e25bb1d967314d8eed3f3b16
         ports:
         - name: grpc
           containerPort: 7000
@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/loadgenerator:e12fbd7eaaae768c8e66acd6f606e8e85684feee
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -198,7 +198,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/productcatalogservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/productcatalogservice:c9b73e73731f63f831995248f41b6f9a274087bc
         ports:
         - containerPort: 3550
         env:
@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/jaiswaladi246/checkoutservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+          image: ghcr.io/chimdi247/checkoutservice:eb5247728a8ce0d0245514b7163f35d9e4217923
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/shippingservice:0414af3d12782601c241f6a7d84e522e86f93328
         ports:
         - containerPort: 50051
         env:
@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/cartservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/cartservice:c40f3403692a1e3331fa6f0e41861fa3b8eb5085
         ports:
         - containerPort: 7070
         env:
@@ -578,7 +578,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/emailservice:2982d3409659791694ed55a1f12f881ec4d7552a
+        image: ghcr.io/chimdi247/emailservice:6405c6e42a56779f5cb32cf4661a8975be883b6f
         ports:
         - containerPort: 8080
         env:
@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/chimdi247/paymentservice:4ce31ef10d21720b6383b86285256cfb74b02397
         ports:
         - containerPort: 50051
         env:
@@ -737,7 +737,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/jaiswaladi246/frontend:6ddc9ef0f082c8f1cc7e668f6f2a03918fa7da0a
+          image: ghcr.io/chimdi247/frontend:6df7739450a3bd622a064711f75ab5ff0807a09c
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/chimdi247/recommendationservice:3a9a3d68204e30ef0ae8f60b95bb2706aca892b9
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/jaiswaladi246/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/chimdi247/adservice:260cb79b6611c72844783af2c1c190f757899e21
         ports:
         - containerPort: 9555
         env:
